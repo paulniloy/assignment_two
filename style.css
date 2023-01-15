@@ -213,7 +213,7 @@ li p {
 }
 
 .icon {
-    border: 1px solid red;
+    border: 1px solid var(--orange);
     border-radius: 10px;
     height: 200px;
     width: 200px;
@@ -297,6 +297,7 @@ li p {
     justify-content: center;
     transition: all .3s ease-in-out;
     border-radius: 10px;
+    border: 1px solid #FF900E;
 }
 
 .boxy:hover {
@@ -316,6 +317,7 @@ li p {
 .font30 {
     font-size: 30px;
 }
+
 
 /* footer part starts */
 
