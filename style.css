@@ -180,12 +180,13 @@ li p {
 
 .btn-1 {
     position: relative;
-    top: -120px;
+    top: -130px;
     left: 50px;
     color: white;
     padding: 20px 40px;
     border: none;
     background-color: var(--orange);
+    border-radius: 10px;
 }
 
 .block-1 {
@@ -213,6 +214,7 @@ li p {
 
 .icon {
     border: 1px solid red;
+    border-radius: 10px;
     height: 200px;
     width: 200px;
     display: flex;
@@ -294,11 +296,12 @@ li p {
     align-items: center;
     justify-content: center;
     transition: all .3s ease-in-out;
+    border-radius: 10px;
 }
 
 .boxy:hover {
     background-color: rgb(255, 204, 204);
-    transform: rotateY(360deg) scale(1.1);
+    transform: scale(1.1);
 }
 
 .boxy:hover img {
